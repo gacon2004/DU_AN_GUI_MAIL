@@ -1,9 +1,8 @@
 fastapi
-uvicorn[standard]
+uvicorn
+aiosmtplib
+python-dotenv
 jinja2
 authlib
-python-dotenv
-requests
-aiofiles
-passlib[bcrypt]
 email-validator
+starlette
