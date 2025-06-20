@@ -6,3 +6,6 @@ jinja2
 authlib
 email-validator
 starlette
+mysql-connector-python
+python-jose
+passlib[bcrypt]
