@@ -10,3 +10,4 @@ mysql-connector-python
 python-jose
 passlib[bcrypt]
 itsdangerous 
+httpx
