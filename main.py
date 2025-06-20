@@ -156,7 +156,7 @@ async def signup(
 
     except Exception as e:
         print("Lỗi đăng ký:", str(e))  # Ghi lỗi ra console
-        return templates.TemplateResponse("register.html", {
+        return templates.TemplateResponse("signup.html", {
             "request": request,
             "message": "Có lỗi xảy ra trong quá trình đăng ký."
         })
